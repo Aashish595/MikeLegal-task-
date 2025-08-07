@@ -1,16 +1,79 @@
-<<<<<<< HEAD
-# MikeLegal-task-
-=======
-# React + Vite
+# 🗓️ Daily Task Manager – MikeLegal Frontend Intern Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based Daily Task Manager application built as part of the selection process for the **Frontend Intern** position at **MikeLegal**.
 
-Currently, two official plugins are available:
+## 📌 Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app allows users to:
+- Add and edit tasks
+- View tasks on a calendar
+- Categorize tasks
+- Visualize tasks by category using charts
 
-## Expanding the ESLint configuration
+Built with **Ant Design**, **Formik + Yup**, **Redux Toolkit**, and **Chart.js**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> origin/master
+---
+
+## 🚀 Live Demo
+
+🔗 **Live App**: [https://your-live-app-url.vercel.app](https://your-live-app-url.vercel.app)  
+🔗 **GitHub Repo**: [https://github.com/your-username/daily-task-manager](https://github.com/your-username/daily-task-manager)
+
+---
+
+## 🧰 Tech Stack
+
+- **ReactJS**
+- **Ant Design** – UI components
+- **Redux Toolkit** – State management
+- **Formik + Yup** – Forms & validation
+- **Chart.js** – Charts and data visualization
+- **Day.js** *(optional)* – Date formatting
+
+---
+
+## ✨ Features
+
+### 📅 1. Calendar View
+- Built using Ant Design’s `<Calendar />` component.
+- Click on any date to view or add tasks.
+
+### 📝 2. Add / Edit Tasks
+- Form opens in a modal/drawer on date click.
+- Built using **Formik + Yup**.
+- Fields:
+  - **Title** (required)
+  - **Description** (optional)
+  - **Date** (auto-filled)
+  - **Category** (Dropdown: `success`, `warning`, `issue`, `info`)
+- Form validation handled by Yup.
+- Task data is stored in **Redux state**.
+
+### 📋 3. Task Listing
+- Displays tasks for the selected date.
+- Each task supports:
+  - **Edit**
+  - **Delete**
+- Categories are shown using **Ant Design Tags**, color-coded.
+
+### 📊 4. Charts Visualization
+- Shows a **Bar or Pie chart** of task counts by category.
+- Includes:
+  - **Category filter dropdown**
+  - **Apply** and **Reset** filter buttons
+
+---
+
+## 🗃️ State Management
+
+- All task data is stored in the client using **Redux Toolkit**.
+- No backend is used — all functionality is frontend-only.
+
+---
+
+## 📦 Installation & Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/daily-task-manager.git
+   cd daily-task-manager
