@@ -16,8 +16,8 @@ Built with **Ant Design**, **Formik + Yup**, **Redux Toolkit**, and **Chart.js**
 
 ## 🚀 Live Demo
 
-🔗 **Live App**: [https://your-live-app-url.vercel.app](https://your-live-app-url.vercel.app)  
-🔗 **GitHub Repo**: [https://github.com/your-username/daily-task-manager](https://github.com/your-username/daily-task-manager)
+🔗 **Live App**: [https://mikelegal-task.onrender.com/](https://mikelegal-task.onrender.com/)  
+🔗 **GitHub Repo**: [https://github.com/Aashish595/MikeLegal-task-](https://github.com/Aashish595/MikeLegal-task-)
 
 ---
 
@@ -71,9 +71,3 @@ Built with **Ant Design**, **Formik + Yup**, **Redux Toolkit**, and **Chart.js**
 
 ---
 
-## 📦 Installation & Setup
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/daily-task-manager.git
-   cd daily-task-manager
